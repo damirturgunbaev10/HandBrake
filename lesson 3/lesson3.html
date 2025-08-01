@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Asoslari Dars</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 40px;
+      }
+      h1,
+      h2 {
+        color: #2c3e50;
+      }
+      code {
+        background: #ecf0f1;
+        padding: 2px 5px;
+        border-radius: 4px;
+        display: block;
+        margin: 8px 0;
+      }
+      .box {
+        border-left: 4px solid #2980b9;
+        padding-left: 10px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>📘 HTML Asosiy Teglar Darsi</h1>
+
+    <div id="firstBox" class="box">
+      <h2>1. Sarlavhalar: <code>&lt;h1&gt; - &lt;h6&gt;</code></h2>
+      <p>Sarlavhalar matnga strukturaviy ko‘rinish beradi:</p>
+      <code>
+        &lt;h1&gt;Bu H1 sarlavha&lt;/h1&gt; <br />
+        &lt;h3&gt;Bu H3 sarlavha&lt;/h3&gt;
+      </code>
+    </div>
+
+    <div class="box">
+      <h2>2. Paragraf: <code>&lt;p&gt;</code></h2>
+      <p>Matn bo‘lagini yozish uchun ishlatiladi:</p>
+      <code>&lt;p&gt;Bu paragraf misoli&lt;/p&gt;</code>
+    </div>
+
+    <div class="box">
+      <h2>3. Link: <code>&lt;a&gt;</code></h2>
+      <p>Boshqa sahifaga yoki saytga o‘tish uchun ishlatiladi:</p>
+      <code>&lt;a href="https://google.com"&gt;Google&lt;/a&gt;</code>
+    </div>
+
+    <div class="box">
+      <h2>4. Rasm: <code>&lt;img&gt;</code></h2>
+      <p>Rasm chiqarish uchun:</p>
+      <code>&lt;img src="image.jpg" alt="Rasm tavsifi" width="200" /&gt;</code>
+    </div>
+
+    <div class="box">
+      <h2>5. Ro‘yxatlar: <code>&lt;ul&gt;</code> va <code>&lt;ol&gt;</code></h2>
+      <p>Tartibli va tartibsiz ro‘yxatlar:</p>
+      <code>
+        &lt;ul&gt;<br />
+        &nbsp;&nbsp;&lt;li&gt;Olma&lt;/li&gt;<br />
+        &nbsp;&nbsp;&lt;li&gt;Banan&lt;/li&gt;<br />
+        &lt;/ul&gt;
+      </code>
+      <code>
+        &lt;ol&gt;<br />
+        &nbsp;&nbsp;&lt;li&gt;Birinchi&lt;/li&gt;<br />
+        &nbsp;&nbsp;&lt;li&gt;Ikkinchi&lt;/li&gt;<br />
+        &lt;/ol&gt;
+      </code>
+    </div>
+
+    <div class="box">
+      <h2>7. Jadval: <code>&lt;table&gt;</code></h2>
+      <p>Ma’lumotlarni jadval ko‘rinishida chiqaradi:</p>
+      <code>
+        &lt;table border="1"&gt;<br />
+        &nbsp;&nbsp;&lt;tr&gt;&lt;th&gt;Ism&lt;/th&gt;&lt;th&gt;Yosh&lt;/th&gt;&lt;/tr&gt;<br />
+        &nbsp;&nbsp;&lt;tr&gt;&lt;td&gt;Ali&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;/tr&gt;<br />
+        &lt;/table&gt;
+      </code>
+    </div>
+
+    <hr />
+
+    <h2>🧪 Mashq</h2>
+    <p>Quyidagilarni bajaring:</p>
+    <ul>
+      <li>
+        <strong>1.</strong> <code>&lt;h1&gt;</code> va
+        <code>&lt;p&gt;</code> teglaridan foydalanib bosh sarlavha va matn
+        yozing.
+      </li>
+      <li>
+        <strong>2.</strong> <code>&lt;a&gt;</code> orqali "YouTube" sahifasiga
+        link qo‘ying.
+      </li>
+      <li>
+        <strong>3.</strong> <code>&lt;img&gt;</code> orqali rasm qo‘ying
+        (mahalliy yoki onlayn rasm).
+      </li>
+      <li>
+        <strong>4.</strong> Mevalar ro‘yxatini <code>&lt;ul&gt;</code> bilan
+        tuzing.
+      </li>
+    </ul>
+
+    <h2>🏠 Uyga vazifa</h2>
+    <ol>
+      <li>
+        Shaxsiy tanishtiruv sahifasi yarating (ism, yoshi, hobby, rasm bilan).
+      </li>
+      <li>3 ta havola qo‘shing (masalan: Google, Wikipedia, YouTube).</li>
+      <li>2 xil ro‘yxat yarating: biri tartibli, biri tartibsiz.</li>
+      <li>Jadvalda 3 do‘stingizning ismi va yoshini kiriting.</li>
+    </ol>
+
+    <table border="1" width="100%">
+      <tr>
+        <th>Ism</th>
+        <th>Yosh</th>
+      </tr>
+      <tr>
+        <td>Ali</td>
+        <td>25</td>
+      </tr>
+    </table>
+
+    <a href="#firstBox">Вернуться к первому блоку</a><br />
+
+    <a href="https://www.google.com" target="_blank">Перейти на Google</a><br />
+
+    <a href="https://www.youtube.com">Перейти на YouTube</a><br />
+
+    <a href="/head.html">О нас</a><br />
+
+    <a href="/file.mp4" download>Загрузить видео</a><br />
+
+    <a href="tel:+998901234567">+998 90 123 45 67</a><br />
+
+    <a href="mailto:support@example.com">Написать письмо</a><br />
+
+    <a href="tel:+998901112233">Позвонить нам</a> <br />
+
+    <a title="Позвонить нам" href="tel:+998901112233">Позвонить нам</a>
+    <br />
+    <br />
+
+    <a href="./head.html" target="_blank">Birinchi darsga qaytish</a>
+  </body>
+</html>

@@ -1,0 +1,471 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #9dcaee;
+}
+
+.intro{
+    background-color: #269AD3;
+    width:100%;
+    height: 643px;
+    display: inline-block;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo_img{
+width: 192px;
+height: 54px;
+display: inline-block;
+    margin-top: 34px;
+    margin-left: 161px;
+    vertical-align: middle;
+}
+
+.intro_ul{
+    list-style: none;
+display: flex;
+  gap: 35px;
+    margin-left: 530px;
+}
+intro_li{
+    display: inline-block;
+    margin-right: 32px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #25468A;
+}
+
+#Docs{
+width: 37px;
+height: 19px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+#button1{
+border: none;
+align-items: center;
+padding: 9px 18px;
+gap: 10px;
+background: #FFFFFF;
+border-radius: 24px;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #14274C;
+}
+
+.intro_left{
+    display: inline-block;
+
+    margin-left: 160px;
+}
+
+.left_title{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 92px;
+line-height: 108px;
+color: #25468A;
+}
+
+.left_text{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+color: #3B4A6B;
+margin-top: 20px;
+}
+
+.left_description{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #3B4A6B;
+margin-top: 30px;
+}
+
+#button2{
+padding: 15px 85px;
+gap: 10px;
+border: none;
+background: #F7BA0E;
+border-radius: 26px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.04em;
+color: #3B4A6B;
+}
+
+.right{
+    display: inline-block;
+width: 560px;
+height: 401px;
+margin-left: 130px;
+vertical-align: middle;
+margin-top: 80px;
+}
+
+.options{
+  margin: auto;
+  width: 1120px;
+  height: 189px;
+  margin-top: 160px;
+  display: flex;
+  gap: 25px;
+}
+
+.option{
+
+    width:352px;
+    height:160px;
+    background-color: #1391CE;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+padding-top: 68px;
+border-radius: 12px;
+
+
+}
+
+.reasons{
+    margin-top: 133px;
+}
+
+.reason_headline{
+font-style: normal;
+font-weight: 100;
+font-size: 36px;
+line-height: 121.3%;
+text-align: center;
+letter-spacing: 0.01em;
+color: #1391CE;
+margin-bottom: 18px;
+}
+
+.hr1{
+    width: 160px;
+    height:8px;
+    background-color: #F7BA0E;
+    border: none;
+}
+
+.reason1{
+    display: inline-block;
+    margin-top:110px;
+    width:100%;
+    height:408px;
+}
+
+.left2{
+  display: inline-block;
+  margin-left: 160px;
+  margin-right: 112px;
+}
+
+.reason1_img{
+width: 560px;
+height: 408px;
+border-radius: 8px;
+box-shadow: 5px 17px 5px rgba(135, 132, 132, 0.3);
+}
+
+.right2_preface{
+margin-bottom: 16px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 134.3%;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+color: #25468A;
+}
+
+.right2{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.right2_title{
+    margin-bottom: 32px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 32px;
+line-height: 134.3%;
+letter-spacing: 0.01em;
+color: #1391CE;
+vertical-align: middle;
+}
+
+.right2_text{
+width: 448px;
+height: 144px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 18px;
+line-height: 134.3%;
+letter-spacing: 0.02em;
+color: #4F4F4F;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafa;
+  color: #222;
+  margin: 0;
+  padding: 40px;
+}
+
+.reason2 {
+  display: inline-block;
+  margin-top: 128px;
+}
+
+.left3{
+    display: inline-block;
+    margin-left:163px;
+}
+
+.subtitle {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 134.3%;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+color: #25468A;
+}
+
+.title3 {
+  font-size: 24px;
+  color: #007bff;
+  margin: 0 0 15px 0;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 134.3%;
+letter-spacing: 0.01em;
+color: #1391CE;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.section-title {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+.right3{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.right3_img{
+position: absolute;
+width: 560px;
+height: 408px;
+left: 736px;
+top: 1970px;
+border-radius: 8px;
+box-shadow: 5px 17px 5px rgba(135, 132, 132, 0.3);
+}
+
+.right3_title{
+
+  padding: 40px;
+  position: absolute;
+  top: 2500px;
+  left:868px;
+}
+
+.left-panel img {
+  display: inline-block;
+position: absolute;
+width: 560px;
+height: 427px;
+left: 170px;
+top: 2510px;
+border-radius: 8px;
+
+}
+
+.right-panel {
+  margin-left: 40px;
+}
+
+.tagline {
+  color: #4fa1ff;
+  font-weight: 600;
+  text-transform: uppercase;
+position: absolute;
+width: 150px;
+height: 21px;
+left: 910px;
+top: 2490px;
+}
+
+.right-panel h1 {
+  font-size: 2em;
+  color: #4fa1ff;
+  margin-bottom: 20px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+  font-size: 1.1em;
+position: absolute;
+left: 372px;
+top: 2610px;
+}
+
+.features-list li {
+  display: flex;
+  align-items: start;
+  margin-bottom: 10px;
+}
+
+.check-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.left3_img{
+    box-shadow: 5px 17px 5px rgba(135, 132, 132, 0.3);
+}
+
+.footer{
+    width:100%;
+    height:144px;
+    background-color: #1391CE;
+position: absolute;
+left: 0px;
+top: 3050px;
+}
+
+.hr2{
+    margin:auto;
+    width:1120px;
+    height: 2px;
+    border: none;
+    background-color: #C9D9E1;
+    margin-top: 32px;
+}
+
+.left4{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 134.3%;
+letter-spacing: 0.01em;
+color: #302E2F;
+margin-left: 200px;
+margin-top: 20px;
+}
+
+#span1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 134.3%;
+letter-spacing: 0.01em;
+color: #ffffff;
+}
+
+.right4{
+display: inline-block;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 134.3%;
+
+letter-spacing: 0.01em;
+
+color: #343233;
+vertical-align: middle;
+margin-left: 1160px;
+margin-top: -85px;
+}
+
+.span2{
+    display: inline-block;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 134.3%;
+
+letter-spacing: 0.01em;
+
+color: #ffffff;
+}
